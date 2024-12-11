@@ -13,4 +13,13 @@ public class OrderDTO {
     private int itemId;
     private String orderDate;
     private int amount;
+
+
+    public Integer getItemId() {
+        return itemId;
+    }
+
+    public void setItemId(Integer itemId) {
+        this.itemId = itemId;
+    }
 }

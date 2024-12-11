@@ -14,4 +14,21 @@ public class ProductDTO {
     private String productName;
     private String description;
     private int forSale;
+
+
+    public Integer getProductId() {
+        return productId;
+    }
+
+    public void setProductId(Integer productId) {
+        this.productId = productId;
+    }
+
+    public int getForSale() {
+        return forSale;
+    }
+
+    public void setForSale(int forSale) {
+        this.forSale = forSale;
+    }
 }
